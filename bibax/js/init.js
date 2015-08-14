@@ -48,11 +48,13 @@ $(function () {
     $("#nav-mobile").html($("#nav-main").html());
 	
     $("#nav-trigger").click(function(){
-		$(this).toggleClass("opened");
-		$("nav#nav-mobile ul").toggleClass("expanded").slideToggle(250);
-		
-		
-        
+        if ($("nav#nav-mobile ul").hasClass("expanded")) {
+            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+            $(this).removeClass("opened");
+        } else {
+            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+            $(this).addClass("opened");
+        }
     });
 
 	

@@ -220,28 +220,28 @@ nav {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 section {
   padding: 150px 0 0 0;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 section {
   height: 1000px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 135, ../sass/screen.scss */
+  /* line 137, ../sass/screen.scss */
   #nav-trigger {
     display: block;
   }
 
-  /* line 139, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   #nav-main {
     display: none;
   }
 
-  /* line 142, ../sass/screen.scss */
+  /* line 144, ../sass/screen.scss */
   #nav-mobile {
     display: block;
   }
